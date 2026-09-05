@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 620">
+  <defs>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#202a35"/>
+      <stop offset=".5" stop-color="#66717c"/>
+      <stop offset="1" stop-color="#151c25"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#metal)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 40 L55 600 M110 40 L165 600"/>
+    <path d="M55 600 H165"/>
+    <path d="M66 490 H154 M77 380 H143 M87 270 H133 M97 160 H123"/>
+    <path d="M62 545 L158 490 M158 545 L62 490"/>
+    <path d="M72 435 L148 380 M148 435 L72 380"/>
+    <path d="M82 325 L138 270 M138 325 L82 270"/>
+    <path d="M92 215 L128 160 M128 215 L92 160"/>
+    <path d="M110 40 V600"/>
+    <path d="M65 92 H155"/>
+  </g>
+  <g fill="#202a35">
+    <rect x="44" y="64" width="16" height="92" rx="5"/>
+    <rect x="160" y="64" width="16" height="92" rx="5"/>
+    <rect x="74" y="48" width="15" height="82" rx="5"/>
+    <rect x="131" y="48" width="15" height="82" rx="5"/>
+  </g>
+  <g fill="none" stroke="#29333f" stroke-width="5">
+    <path d="M108 20 V84"/>
+    <path d="M95 31 H125"/>
+  </g>
+</svg>
