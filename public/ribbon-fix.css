@@ -1,0 +1,52 @@
+.construction-ribbon {
+  left: 50% !important;
+  right: auto !important;
+  top: 112px !important;
+  width: min(78%, 1180px) !important;
+  min-height: 88px !important;
+  padding: 10px 30px !important;
+  gap: 26px !important;
+  transform: translateX(-50%) rotate(-14deg) !important;
+  transform-origin: center center !important;
+}
+
+.construction-ribbon strong {
+  font-size: clamp(22px, 3.25vw, 50px) !important;
+}
+
+.construction-ribbon span {
+  font-size: clamp(17px, 2vw, 31px) !important;
+}
+
+@media (max-width: 900px) {
+  .construction-ribbon {
+    left: 50% !important;
+    right: auto !important;
+    top: 100px !important;
+    width: 94% !important;
+    min-height: 74px !important;
+    padding: 8px 18px !important;
+    transform: translateX(-50%) rotate(-12deg) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .construction-ribbon {
+    left: 50% !important;
+    right: auto !important;
+    top: 126px !important;
+    width: 118% !important;
+    min-height: 64px !important;
+    padding: 7px 12px !important;
+    gap: 10px !important;
+    transform: translateX(-50%) rotate(-10deg) !important;
+  }
+
+  .construction-ribbon strong {
+    font-size: 20px !important;
+  }
+
+  .construction-ribbon span {
+    font-size: 14px !important;
+  }
+}
