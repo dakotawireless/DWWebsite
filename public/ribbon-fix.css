@@ -1,12 +1,12 @@
 .construction-ribbon {
   left: 50% !important;
   right: auto !important;
-  top: 26px !important;
-  width: min(72%, 1080px) !important;
-  min-height: 84px !important;
-  padding: 10px 28px !important;
+  top: 24px !important;
+  width: min(74%, 1120px) !important;
+  min-height: 86px !important;
+  padding: 12px 30px !important;
   gap: 22px !important;
-  transform: translateX(-50%) rotate(-3deg) !important;
+  transform: translateX(-50%) !important;
   transform-origin: center center !important;
 }
 
@@ -18,16 +18,20 @@
   font-size: clamp(17px, 1.9vw, 29px) !important;
 }
 
+.hero-content {
+  padding-top: 150px !important;
+}
+
 @media (max-width: 900px) {
   .construction-ribbon {
     left: 50% !important;
     right: auto !important;
-    top: 24px !important;
-    width: 86% !important;
-    min-height: 74px !important;
-    padding: 8px 16px !important;
+    top: 20px !important;
+    width: 88% !important;
+    min-height: 76px !important;
+    padding: 9px 16px !important;
     gap: 14px !important;
-    transform: translateX(-50%) rotate(-2deg) !important;
+    transform: translateX(-50%) !important;
   }
 
   .construction-ribbon strong {
@@ -37,18 +41,22 @@
   .construction-ribbon span {
     font-size: clamp(15px, 2.8vw, 24px) !important;
   }
+
+  .hero-content {
+    padding-top: 136px !important;
+  }
 }
 
 @media (max-width: 600px) {
   .construction-ribbon {
     left: 50% !important;
     right: auto !important;
-    top: 18px !important;
-    width: 90% !important;
-    min-height: 76px !important;
+    top: 16px !important;
+    width: 92% !important;
+    min-height: 78px !important;
     padding: 8px 12px !important;
     gap: 2px !important;
-    transform: translateX(-50%) rotate(0deg) !important;
+    transform: translateX(-50%) !important;
     flex-direction: column !important;
   }
 
@@ -62,5 +70,9 @@
   .construction-ribbon span {
     font-size: clamp(14px, 4.4vw, 19px) !important;
     white-space: nowrap !important;
+  }
+
+  .hero-content {
+    padding-top: 132px !important;
   }
 }
