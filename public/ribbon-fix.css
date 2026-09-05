@@ -1,32 +1,41 @@
 .construction-ribbon {
   left: 50% !important;
   right: auto !important;
-  top: 112px !important;
-  width: min(78%, 1180px) !important;
-  min-height: 88px !important;
-  padding: 10px 30px !important;
-  gap: 26px !important;
-  transform: translateX(-50%) rotate(-14deg) !important;
+  top: 26px !important;
+  width: min(72%, 1080px) !important;
+  min-height: 84px !important;
+  padding: 10px 28px !important;
+  gap: 22px !important;
+  transform: translateX(-50%) rotate(-3deg) !important;
   transform-origin: center center !important;
 }
 
 .construction-ribbon strong {
-  font-size: clamp(22px, 3.25vw, 50px) !important;
+  font-size: clamp(22px, 3vw, 46px) !important;
 }
 
 .construction-ribbon span {
-  font-size: clamp(17px, 2vw, 31px) !important;
+  font-size: clamp(17px, 1.9vw, 29px) !important;
 }
 
 @media (max-width: 900px) {
   .construction-ribbon {
     left: 50% !important;
     right: auto !important;
-    top: 100px !important;
-    width: 94% !important;
+    top: 24px !important;
+    width: 86% !important;
     min-height: 74px !important;
-    padding: 8px 18px !important;
-    transform: translateX(-50%) rotate(-12deg) !important;
+    padding: 8px 16px !important;
+    gap: 14px !important;
+    transform: translateX(-50%) rotate(-2deg) !important;
+  }
+
+  .construction-ribbon strong {
+    font-size: clamp(19px, 4vw, 34px) !important;
+  }
+
+  .construction-ribbon span {
+    font-size: clamp(15px, 2.8vw, 24px) !important;
   }
 }
 
@@ -34,19 +43,24 @@
   .construction-ribbon {
     left: 50% !important;
     right: auto !important;
-    top: 126px !important;
-    width: 118% !important;
-    min-height: 64px !important;
-    padding: 7px 12px !important;
-    gap: 10px !important;
-    transform: translateX(-50%) rotate(-10deg) !important;
+    top: 18px !important;
+    width: 90% !important;
+    min-height: 76px !important;
+    padding: 8px 12px !important;
+    gap: 2px !important;
+    transform: translateX(-50%) rotate(0deg) !important;
+    flex-direction: column !important;
   }
 
   .construction-ribbon strong {
-    font-size: 20px !important;
+    font-size: clamp(17px, 5.1vw, 23px) !important;
+    white-space: normal !important;
+    text-align: center !important;
+    line-height: 1.05 !important;
   }
 
   .construction-ribbon span {
-    font-size: 14px !important;
+    font-size: clamp(14px, 4.4vw, 19px) !important;
+    white-space: nowrap !important;
   }
 }
